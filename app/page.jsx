@@ -16,11 +16,11 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="relative z-0 bg-[#050816]">
-      <div className="bg-[url(./assets/herobg.png)] bg-cover bg-no-repeat bg-center cursor-pointer">
-        <Navbar />
-        <Hero />
-      </div>
+    // <div className="relative z-0 bg-[#050816]">
+    //   <div className="bg-[url(./assets/herobg.png)] bg-cover bg-no-repeat bg-center cursor-pointer">
+    //     <Navbar />
+    //     <Hero />
+      <div>
       <About />
       <Experience />
       <Tech />
@@ -35,6 +35,6 @@ export default function Home() {
       <div>
         <footer></footer>
       </div>
-    </div>
+     </div>
   );
 }
