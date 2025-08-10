@@ -20,12 +20,15 @@ export default function Home() {
     //   <div className="bg-[url(./assets/herobg.png)] bg-cover bg-no-repeat bg-center cursor-pointer">
     //     <Navbar />
     //     <Hero />
-      <div>
+    <div
+      // className={"relative z-0 bg-[#050816] mr-[200px] gap-7"}
+      style={{ marginLeft: "20px" }}
+    >
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Tech />
       <Works />
-      <Feedbacks />
+      {/* <Feedbacks /> */}
       <div className="relative z-0">
         <Contact />
         <StarsCanvas />
@@ -35,6 +38,6 @@ export default function Home() {
       <div>
         <footer></footer>
       </div>
-     </div>
+    </div>
   );
 }
